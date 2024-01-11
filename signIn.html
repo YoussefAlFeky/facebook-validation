@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signin.css">
+    <title>Facebook || SignIN</title>
+</head>
+<body>
+    
+    <div class="signup">
+
+        <h1>Sign In</h1>
+        <span id="error"></span>
+
+        <form onsubmit="return validateForm()" action="index.html"  novalidate>
+          
+            <label>Email</label>
+            <input type="email"  placeholder="Email"  id="email">
+            <br>
+            <br>
+            <label>Password</label>
+            <input type="password" placeholder="password"  >
+            <br>
+            <br>
+        
+       
+            <button class="Signin" type="submit">Sign IN</button>
+        </form>
+    </div>
+
+
+    <script src="signin.js"></script>
+</body>
+</html>

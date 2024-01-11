@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>Facebook || SignUp</title>
+</head>
+<body>
+    
+
+    <div class="signup">
+
+        <h1>Create a new account</h1>
+        <span id="error"></span>
+        <form action="signin.html" onsubmit="return validateForm()" novalidate >
+            <label>Name</label>
+            <input type="text"  placeholder="Enter Your name" id="userName" >
+            <br>
+            <br>
+            <label>Email</label>
+            <input type="email"  placeholder="Email"  id="email">
+            <br>
+            <br>
+            <label>Password</label>
+            <input type="password" name="password" placeholder="password"   >
+            <br>
+            <br>
+            <label> Confirm </label>
+            <input type="password" name="password" placeholder="password" >
+            <br>
+            <br>
+            <label>Mobile </label>
+            <input type="number" placeholder="phone" id="phone" >
+            <br>
+            <br>
+       
+    
+         <button class="create" type="submit" >Create Account</button>
+        </form>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
